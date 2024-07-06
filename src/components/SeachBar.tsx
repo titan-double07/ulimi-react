@@ -14,7 +14,7 @@ export default function SeachBar() {
 
    debounceTimeout.current = setTimeout(() => {
      setQuery(term);
-   }, 500); // 500ms debounce delay
+   }, 300); // 300ms debounce delay
  }
   return (
     <label

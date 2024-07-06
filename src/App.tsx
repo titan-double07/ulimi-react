@@ -7,7 +7,7 @@ function App() {
     <>
       <ProductProvider>
         <NavBar />
-        <main className="bg-gray-100">
+        <main className="bg-gray-100 min-h-screen">
           <div className="px-10 py-5">
             <DepartmentTable />
           </div>
